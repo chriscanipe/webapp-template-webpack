@@ -18,15 +18,16 @@ Why do we need all of this stuff?? The short answer is you don't! A simple HTML/
 
 ---
 
-### `gulp serve`
+### Available Gulp commands
+
+#### `gulp serve`
 Sets up a local server run out of `.tmp`. Watches your Sass, Handlebars and Javascript files and updates live in the browser.
 
 The `gulp serve` task will default to `port 3000`, which you can view in browser as `http://localhost:3000/`.
 
 Use the `-p` flag if you want to use a different port (for example, if you're already serving a proejct in port 3000, type `gulp serve -p 3002` to serve in port 3002.)
 
-### `gulp build`
+#### `gulp build`
 Compiles your code into a single publishable directory called `/dist`
 
-### ES6 and beyond
 
