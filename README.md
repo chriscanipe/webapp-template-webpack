@@ -4,7 +4,9 @@ This is a stripped down version of the interactive template we use at Axios. It 
 
 Why do we need all of this stuff?? The short answer is you don't! A simple HTML/JS/CSS approach to D3 projects is fine for most simple projects. But this template gives us access to some modern conveniences like the ES6 and Sass. It also makes it super easy to fire up a local server and includes some boilerplate code that makes it easy to spin up a quick chart in D3.
 
-How to use this template.
+---
+
+### How to use this template.
 
 1) Clone this repository to your working directory.
 
