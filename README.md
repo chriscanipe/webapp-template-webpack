@@ -16,6 +16,16 @@ Why do we need all of this stuff?? The short answer is you don't! A simple HTML/
 
 4) run `gulp serve`
 
+
+---
+
+To build a chart in D3, you really only need to worry about the `/src` directory. 
+
+This template takes an object-oriented approach to making charts in D3. In a nutshell, it's set up so you can write your chart script as a library or "module" that's then called from your main script. To learn more about this approach and why it works so well with D3, check out this [explainer](http://elliotbentley.com/2017/08/09/a-better-way-to-structure-d3-code-es6-version.html).
+
+`src/js/app.js` is the main JavaScipt file. Think of this as your index page for JavaScript. Only the top level stuff goes here.
+`src/js/chart-template.js` is 
+
 ---
 
 ### Available Gulp commands
@@ -29,5 +39,4 @@ Use the `-p` flag if you want to use a different port (for example, if you're al
 
 #### `gulp build`
 Compiles your code into a single publishable directory called `/dist`
-
 
