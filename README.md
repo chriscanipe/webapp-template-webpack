@@ -1,4 +1,4 @@
-Dynamic Webpack/Gulp template
+## Dynamic Webpack/Gulp template
 
 This is a stripped down version of the interactive template we use at Axios. It includes Gulp task manager and settings for running a local web server, automatic page refresh, Sass (CSS library) and Webpack (a bundling library for deploying streamlined code).
 
