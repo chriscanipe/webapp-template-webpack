@@ -1,0 +1,108 @@
+@import '_basics';
+@import '_reset';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: auto;
+  height: auto;
+}
+
+
+div {
+  outline: 1px solid magenta;
+}
+
+.chart-container {
+  width: 100%;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+
+  .chart {
+    display: inline-block;
+    width: 100%;
+
+    .axis {
+      text {
+        font-family: $sans;
+        fill: $color-gray-03;
+        pointer-events: none;
+      }
+
+      .tick text {
+        font-size: 12px;
+      }
+
+      line,
+      path {
+        stroke: $color-gray-03;
+        stroke-width: 0.5;
+        pointer-events: none;
+      }
+
+      .domain {
+        display: none;
+      }
+    }
+  }
+}
+
+.headline {
+  font-family: $sans;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: $color-gray-05;
+  margin-bottom: 10px;
+}
+
+.headline-units {
+  font-family: $sans;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-gray-03;
+  font-weight: 400;
+}
+
+.subhead {
+  font-family: $sans;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  color: $color-gray-05;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.axis-label {
+  font-family: $sans;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-gray-05;
+}
+
+.annotation {
+  font-family: $sans;
+  font-size: 14px;
+  line-height: 22px;
+  color: $color-gray-05;
+}
+
+.annotation--bold {
+  font-family: $sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: $color-gray-05;
+}
+
+.annotation--number {
+  font-family: $sans;
+  font-size: 16px;
+  line-height: 22px;
+  color: $color-gray-05;
+}
