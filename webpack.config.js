@@ -202,10 +202,10 @@ module.exports = (env = {}, { p } = { p: false }) => {
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
 
       // More fun hacks necessitated by our friends at moment dot js
-      new webpack.NormalModuleReplacementPlugin(
-        /moment-timezone\/data\/packed\/latest\.json/,
-        require.resolve(path.join(__dirname, "./utils/timezones.json"))
-      ),
+      // new webpack.NormalModuleReplacementPlugin(
+      //   /moment-timezone\/data\/packed\/latest\.json/,
+      //   require.resolve(path.join(__dirname, "./utils/timezones.json"))
+      // ),
 
       new ScriptExtHtmlWebpackPlugin({
         defaultAttribute: "defer",
