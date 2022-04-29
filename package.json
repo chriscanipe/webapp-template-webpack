@@ -57,7 +57,7 @@
     "node-xlsx": "^0.10.0",
     "file-system": "^2.2.2 ",
     "request": "^2.81.0",
-    "async": "^2.5.0",
+    "async": "^2.6.4",
     "json2csv": "^3.11.1"
   }
 }
